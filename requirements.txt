@@ -1,5 +1,12 @@
 appdirs==1.4.4
+apturl==0.5.2
+asn1crypto==0.24.0
+attrs==19.3.0
+Automat==0.8.0
+backports.entry-points-selectable==1.1.0
 bcrypt==3.2.0
+blinker==1.4
+Brlapi==0.7.0
 CacheControl==0.12.6
 cachelib==0.1.1
 cachy==0.3.0
@@ -7,70 +14,153 @@ certifi==2020.12.5
 cffi==1.14.5
 chardet==4.0.0
 cleo==0.8.1
-click @ file:///home/linux1/recipes/ci/click_1610990599742/work
+click==8.0.1
 clikit==0.6.2
+cloud-init==21.2
+colorama==0.4.3
+command-not-found==0.3
+configobj==5.0.6
+constantly==15.1.0
 crashtest==0.3.1
 cryptography==3.4.6
-cssmin @ file:///home/monk3y/.cache/pypoetry/artifacts/ec/97/b1/94a1a1a348035abaed1bc7bc4fd175dbcafffa3ac448544ef79a816fc7/cssmin-0.2.0.tar.gz
-ddtrace @ file:///home/monk3y/.cache/pypoetry/artifacts/69/d5/1f/9d79f702114e8c9f70b9b6b5a247ab8543a5bb33a6cfcbc763b77b88af/ddtrace-0.45.0-cp38-cp38-manylinux2010_x86_64.whl
+cssmin==0.2.0
+cupshelpers==1.0
+dbus-python==1.2.16
+ddtrace==0.51.2
+defer==1.0.6
 distlib==0.3.1
-dnspython @ file:///home/monk3y/.cache/pypoetry/artifacts/21/6b/47/ef4d2da2e3efaa0e9a8338689acf4c2fb05b726cc4774de873baa57265/dnspython-2.1.0-py3-none-any.whl
+distro==1.4.0
+distro-info===0.23ubuntu1
+dnspython==2.1.0
 dominate==2.6.0
-email-validator @ file:///home/monk3y/.cache/pypoetry/artifacts/88/73/6b/3f5dda025c739194c07a91ef24653592ee3419f06bba631487418ad96e/email_validator-1.1.2-py2.py3-none-any.whl
+duplicity==0.8.12.0
+email-validator==1.1.3
+entrypoints==0.3
+fasteners==0.14.1
 filelock==3.0.12
-Flask @ file:///home/ktietz/src/ci/flask_1611932660458/work
-Flask-Assets @ file:///home/monk3y/.cache/pypoetry/artifacts/f8/11/44/7ae581f84efe3c8545228d59ae4ae5ffdf01f108c7acadb01ce0a23228/Flask_Assets-2.0-py3-none-any.whl
+Flask==2.0.1
+Flask-Assets==2.0
 Flask-Bcrypt==0.7.1
 Flask-Bootstrap==3.3.7.1
 Flask-Login==0.5.0
+Flask-Mail==0.9.1
 Flask-MySQL==1.5.2
 Flask-Session==0.3.2
-Flask-SQLAlchemy @ file:///tmp/build/80754af9/flask-sqlalchemy_1596836624296/work
-Flask-WTF @ file:///home/monk3y/.cache/pypoetry/artifacts/06/41/38/92606282d61102d6bd80988f502e274ba6c623a3277f3f2788f74ca5a1/Flask_WTF-0.14.3-py2.py3-none-any.whl
+Flask-SQLAlchemy==2.5.1
+Flask-WTF==0.15.1
+future==0.18.2
 greenlet==1.0.0
 html5lib==1.1
-idna @ file:///home/monk3y/.cache/pypoetry/artifacts/1b/d8/86/1c1e615ed44748ebeea47ef507f04d9ffab1b8996ef23494810eb9b89d/idna-3.1-py3-none-any.whl
-intervaltree @ file:///home/monk3y/.cache/pypoetry/artifacts/6b/d6/d4/87ae5b22bff27c59a68164946310df30344496d1788651ac6aea084ced/intervaltree-3.1.0.tar.gz
-itsdangerous @ file:///home/ktietz/src/ci/itsdangerous_1611932585308/work
+httplib2==0.14.0
+hyperlink==19.0.0
+ibapi==9.76.1
+idna==2.8
+importlib-metadata==1.5.0
+incremental==16.10.1
+intervaltree==3.1.0
+itsdangerous==2.0.1
 jeepney==0.6.0
-Jinja2 @ file:///tmp/build/80754af9/jinja2_1612213139570/work
-jsmin @ file:///home/monk3y/.cache/pypoetry/artifacts/e9/d9/f5/5739c3cf64845965a7100c6df90bb122ea90f145157a3a7a37ddc1ceac/jsmin-2.2.2.tar.gz
+Jinja2==3.0.1
+jsmin==2.2.2
+jsonpatch==1.22
+jsonpointer==2.0
+jsonschema==3.2.0
 keyring==21.8.0
-lesscpy @ file:///home/monk3y/.cache/pypoetry/artifacts/61/cd/c9/81867075d3c3d98a334f415ba3869fbd9ae4cc8be16cc53b0d2d0f201f/lesscpy-0.14.0-py2.py3-none-any.whl
+keyrings.alt==3.4.0
+language-selector==0.1
+launchpadlib==1.10.13
+lazr.restfulclient==0.14.2
+lazr.uri==1.0.3
+lesscpy==0.15.0
 lockfile==0.12.2
-MarkupSafe==1.1.1
+louis==3.12.0
+macaroonbakery==1.3.1
+Mako==1.1.0
+MarkupSafe==2.0.1
+monotonic==1.5
+more-itertools==4.2.0
 msgpack==1.0.2
 mysql-connector-python==8.0.23
+netifaces==0.10.4
+numpy==1.21.1
+oauth==1.0.1
+oauthlib==3.1.0
+olefile==0.46
 packaging==20.9
+PAM==0.4.2
+pandas==1.3.1
+paramiko==2.6.0
 passlib==1.7.4
 pastel==0.2.1
+pbr==5.6.0
 pexpect==4.8.0
+Pillow==7.0.0
 pkginfo==1.7.0
-ply @ file:///home/monk3y/.cache/pypoetry/artifacts/8d/00/70/0873e93394ced297edb4b81b51a3e5c550ad5c0a6106dd9b691d0b6a04/ply-3.11-py2.py3-none-any.whl
+platformdirs==2.2.0
+ply==3.11
 poetry==1.1.5
 poetry-core==1.0.2
 protobuf==3.15.6
 ptyprocess==0.7.0
+pyasn1==0.4.2
+pyasn1-modules==0.2.1
+pycairo==1.16.2
 pycparser==2.20
+pycrypto==2.6.1
+pycups==1.9.73
+PyGObject==3.36.0
+PyHamcrest==1.9.0
+PyJWT==1.7.1
 pylev==1.3.0
+pymacaroons==0.13.0
 PyMySQL==1.0.2
+PyNaCl==1.3.0
+pyOpenSSL==19.0.0
 pyparsing==2.4.7
-python-dotenv @ file:///home/monk3y/.cache/pypoetry/artifacts/bf/e2/32/a8162049eb27a891919d21d76446fd01711014b43c809ceef66925e85b/python_dotenv-0.15.0-py2.py3-none-any.whl
+pyRFC3339==1.1
+pyrsistent==0.15.5
+pyserial==3.4
+python-apt==2.0.0+ubuntu0.20.4.5
+python-dateutil==2.7.3
+python-debian===0.1.36ubuntu1
+python-dotenv==0.19.0
+pytz==2019.3
+pyxdg==0.26
+PyYAML==5.3.1
 redis==3.5.3
+reportlab==3.5.34
 requests==2.25.1
 requests-toolbelt==0.9.1
+requests-unixsocket==0.2.0
 SecretStorage==3.3.1
+service-identity==18.1.0
 shellingham==1.4.0
+simplejson==3.16.0
 six==1.15.0
-sortedcontainers @ file:///home/monk3y/.cache/pypoetry/artifacts/b3/bf/a2/83677c4175a4561da36b5ec625e33e1cdd6d78137304a914eb5d6fdcdd/sortedcontainers-2.3.0-py2.py3-none-any.whl
-SQLAlchemy @ file:///tmp/build/80754af9/sqlalchemy_1612467554095/work
-tenacity @ file:///home/monk3y/.cache/pypoetry/artifacts/0a/73/0e/a7daff9b67f7779704bdff7e5d42b8dd25258b63e87a742dd04a449acf/tenacity-7.0.0-py2.py3-none-any.whl
+sortedcontainers==2.4.0
+sos==4.1
+SQLAlchemy==1.4.22
+ssh-import-id==5.10
+system-service==0.3
+systemd-python==234
+tenacity==8.0.1
+testresources==2.0.1
 tomlkit==0.7.0
+Twisted==18.9.0
+ubuntu-advantage-tools==27.2
+ubuntu-drivers-common==0.0.0
+ufw==0.36
+unattended-upgrades==0.1
 urllib3==1.26.4
-uWSGI @ file:///home/conda/feedstock_root/build_artifacts/uwsgi_1602758934234/work
+usb-creator==0.3.7
+uWSGI==2.0.19.1
 virtualenv==20.4.3
 visitor==0.1.3
-webassets @ file:///home/monk3y/.cache/pypoetry/artifacts/50/10/7f/9a7be99beabe7bf97ad1fec107033038958b137f433952c80469c38b35/webassets-2.0-py3-none-any.whl
+wadllib==1.3.3
+webassets==2.0
 webencodings==0.5.1
-Werkzeug @ file:///home/ktietz/src/ci/werkzeug_1611932622770/work
-WTForms @ file:///home/monk3y/.cache/pypoetry/artifacts/77/55/9f/5cb2eb5bc5451ddc3bca4988f8e7ac3502b669763afb1b1a317e9ea4a9/WTForms-2.3.3-py2.py3-none-any.whl
+Werkzeug==2.0.1
+WTForms==2.3.3
+xkit==0.0.0
+zipp==1.0.0
+zope.interface==4.7.1
